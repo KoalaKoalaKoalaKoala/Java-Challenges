@@ -1,11 +1,10 @@
 public class Holden extends Car {
 
 
-        private Car holden;
 
-    public Holden(int cylinders, String name, Car holden) {
+
+    public Holden(int cylinders, String name) {
         super(cylinders, name);
-        this.holden = holden;
     }
 
     @Override

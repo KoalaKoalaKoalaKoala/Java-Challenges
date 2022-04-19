@@ -1,9 +1,7 @@
 public class Ford extends Car{
-    private Car ford;
 
-    public Ford(int cylinders, String name, Car ford) {
+    public Ford(int cylinders, String name) {
         super(cylinders, name);
-        this.ford = ford;
     }
 
     @Override
